@@ -1,0 +1,32 @@
+// ==== to install global typescript and ts node is an cli tool ==== //
+  npm install -g typescript ts-node
+
+// ===== compile and view files ===== //
+
+compile file --> tsc filename.ts //cmd
+and view compiled file --> node filename.js //cmd
+both cmd in one cmd --> ts-node filename.ts
+
+// ==== ====================== ==== //
+
+// What type is --> Easy way to refer the different properties + functions
+  that a value has
+
+==> Type Annotations and Type Inference(anumaan) <==
+
+---> Type Annotations 
+  --> Code we add to tell typescript what type of
+      value a varible will refer to(We(developers) typescript the 
+                              type by typing manually after variable name what type 
+                              should be it)
+
+---> Type Inference
+  --> Typescript tries to figure out what type of value a
+      varible refers to (TypeScript guesses the type:after assign 
+                          value just hover on variable 
+                          without define type annotations)
+
+// ================================================== //
+
+To get global things install types of their 
+like ---> google maps npm install --save @types/google.maps or npm install @types/faker
